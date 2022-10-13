@@ -4,7 +4,7 @@ target 'ExpoFpIndoorAtlas' do
 
 use_frameworks!
 
-pod 'ExpoFpCommon', '0.3.0'
+pod 'ExpoFpCommon', '3.0.0'
 
 #pod 'ExpoFpCommon', :path => '/Users/vladimir/Xcode projects/expofp-common-ios'
 
