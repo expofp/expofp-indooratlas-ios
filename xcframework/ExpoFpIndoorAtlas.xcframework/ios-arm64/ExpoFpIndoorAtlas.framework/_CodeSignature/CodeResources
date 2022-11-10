@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9ix8ZlgTNuT6tTWR9pJ2nWlZKIg=
+		H0gOo0Ho3V9lYYdlZ49fDbAswhU=
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		5lBqKLIQbBuz9tZXhTE4ah9qTc8=
+		QUBNdMswAB3s16RFNXpY+3RYSXI=
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Ke1gxw5/AjaW6U6eX7DZXy21T/w=
+		Fgl/1ISe1Rbw6J9mhktrnXB9YT4=
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		5lBqKLIQbBuz9tZXhTE4ah9qTc8=
+		QUBNdMswAB3s16RFNXpY+3RYSXI=
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mXj9UwURLboHn5DTmZ/1Su2IEyU=
+		ytOt8RVTHGNtey+4D820aMGTwEU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F40kEihTCvRhWmCHNdkHdqUsgE27lcy/31yQyaC05wk=
+			EyHoWCOHmFAfdyjGg+DHbw0ZQl+FeSIuJK1WwpX+sgs=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MH9fv4aFChdCjT0u/XjnvuaYcwtYCB01R4f3JxUMjjU=
+			QrQeJmMWK4rY5Yde09T0Y9atn2lR+AE1MMoOCp78kaM=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F40kEihTCvRhWmCHNdkHdqUsgE27lcy/31yQyaC05wk=
+			EyHoWCOHmFAfdyjGg+DHbw0ZQl+FeSIuJK1WwpX+sgs=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0UWubP6Df1LCLvRXCmLk+KlBSjamJv5KPISZ6sZdd8=
+			f0F8B5Z5blkQ1YR2JWLyNCAMYKmQIusBcIcfyayDnwU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
