@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/ExpoFpIndoorAtlas-Swift.h</key>
 		<data>
-		7Vuz/VXKVW/Ue+v+q7K9HZQpAXc=
+		7eobpgrFmZMIbzmOwToOlZcp2AA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		H0gOo0Ho3V9lYYdlZ49fDbAswhU=
+		B5iFyaFAS2jfXWlOf+dYNpVJIV4=
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		QUBNdMswAB3s16RFNXpY+3RYSXI=
+		PDGDNIExKgNi5wmlo4I+h/AZnmg=
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Fgl/1ISe1Rbw6J9mhktrnXB9YT4=
+		pbUE5MOWGlqdeXAyBD+okck6jJ0=
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		QUBNdMswAB3s16RFNXpY+3RYSXI=
+		PDGDNIExKgNi5wmlo4I+h/AZnmg=
 		</data>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ytOt8RVTHGNtey+4D820aMGTwEU=
+		KWYc6iAEsGDuEuH3k10TcCm5cd8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T0EmrIJJKLX/tEa324F9qQm4MsYU0cI0Vyn3yyzQu50=
+			jIJNaplQmKznaMjHrP7DCU7q6Ym8qTS8r3ww1az6bD4=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EyHoWCOHmFAfdyjGg+DHbw0ZQl+FeSIuJK1WwpX+sgs=
+			STKTDMjf4+fCfEMeRM0sulwsP3m9huTC/+uPiDwTYko=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QrQeJmMWK4rY5Yde09T0Y9atn2lR+AE1MMoOCp78kaM=
+			B0plbujW6lI2ZW06JB/DNtGBz8FvhXR5X3ppkqKIWR0=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EyHoWCOHmFAfdyjGg+DHbw0ZQl+FeSIuJK1WwpX+sgs=
+			STKTDMjf4+fCfEMeRM0sulwsP3m9huTC/+uPiDwTYko=
 			</data>
 		</dict>
 		<key>Modules/ExpoFpIndoorAtlas.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f0F8B5Z5blkQ1YR2JWLyNCAMYKmQIusBcIcfyayDnwU=
+			QCDeX+4zZwLbPxFKzCN8Us4ZSFpQ+NZh2I3N4eih90g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
