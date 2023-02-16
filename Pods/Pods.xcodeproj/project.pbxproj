@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = ExpoFpCommon;
+			productName = ExpoFpCommon;
 		};
 		AA6E119C34F4DE60D4FFF46C6C2543EA /* IndoorAtlas */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 			dependencies = (
 			);
 			name = IndoorAtlas;
+			productName = IndoorAtlas;
 		};
 /* End PBXAggregateTarget section */
 
@@ -65,10 +67,10 @@
 		8EEF0165813D9B4683E0D0B72ECEB25D /* IndoorAtlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorAtlas.release.xcconfig; sourceTree = "<group>"; };
 		94C1D8497CB226C247E131D136CA2DB6 /* Pods-ExpoFpIndoorAtlas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExpoFpIndoorAtlas-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95CB6FC525B68D766DD19C855E9441B8 /* Pods-ExpoFpIndoorAtlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpoFpIndoorAtlas.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7AA3E15132A4D7094EDB9E0437173F1 /* Pods-ExpoFpIndoorAtlas */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExpoFpIndoorAtlas"; path = Pods_ExpoFpIndoorAtlas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C5D26599BF18C042F622733C972971 /* IndoorAtlas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorAtlas.framework; path = "indooratlas-ios-sdk/IndoorAtlas.framework"; sourceTree = "<group>"; };
-		D7ED563513D14C9056F5CB530E39C3D2 /* ExpoFpCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpoFpCommon.xcframework; path = xcframework/ExpoFpCommon.xcframework; sourceTree = "<group>"; };
+		D7ED563513D14C9056F5CB530E39C3D2 /* ExpoFpCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = ExpoFpCommon.xcframework; path = xcframework/ExpoFpCommon.xcframework; sourceTree = "<group>"; };
 		DC87638B5CA3E26BD96DEE707EB8D3B4 /* Pods-ExpoFpIndoorAtlas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExpoFpIndoorAtlas.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,7 +125,6 @@
 				90D7923042EF3784D1FF2EF78CD9B098 /* Frameworks */,
 				CD3C62CF7E8638B55ABCC29C845F3649 /* Support Files */,
 			);
-			name = IndoorAtlas;
 			path = IndoorAtlas;
 			sourceTree = "<group>";
 		};
@@ -149,7 +150,6 @@
 				07DF155C4A561510A0C0D8696A83F78B /* Frameworks */,
 				854A92C88DCFC0614A6FA50E735513E1 /* Support Files */,
 			);
-			name = ExpoFpCommon;
 			path = ExpoFpCommon;
 			sourceTree = "<group>";
 		};
@@ -253,7 +253,7 @@
 				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (

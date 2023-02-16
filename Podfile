@@ -5,9 +5,7 @@ platform :ios, '14.0'
 use_frameworks!
 
 def shared_pods
-  pod 'ExpoFpCommon', '3.0.8'
-  #pod 'ExpoFpCommon', :path => '/Users/vladimir/Xcode projects/expofp-common-ios'
-
+  pod 'ExpoFpCommon', '3.0.10'
   pod 'IndoorAtlas', '3.5.5'
 
 end
