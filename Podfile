@@ -5,7 +5,7 @@ platform :ios, '14.0'
 use_frameworks!
 
 def shared_pods
-  pod 'ExpoFpCommon', '3.0.10'
+  pod 'ExpoFpCommon', '0.3.1.1'
   pod 'IndoorAtlas', '3.5.5'
 
 end
