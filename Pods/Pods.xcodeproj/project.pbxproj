@@ -16,17 +16,16 @@
 			dependencies = (
 			);
 			name = ExpoFpCommon;
-			productName = ExpoFpCommon;
 		};
 		AA6E119C34F4DE60D4FFF46C6C2543EA /* IndoorAtlas */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 17617C75CAAAEFFACDA6EEF24BB9C4C5 /* Build configuration list for PBXAggregateTarget "IndoorAtlas" */;
+			buildConfigurationList = AC5F05A10CCF8C873BAE6C8A92BB494D /* Build configuration list for PBXAggregateTarget "IndoorAtlas" */;
 			buildPhases = (
+				EC6AEA8BF25C16189524CC9C761EE73A /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
 			name = IndoorAtlas;
-			productName = IndoorAtlas;
 		};
 /* End PBXAggregateTarget section */
 
@@ -54,23 +53,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E416226CE7E518AD65D520317C76CB6 /* IndoorAtlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorAtlas.debug.xcconfig; sourceTree = "<group>"; };
 		1CB1E16DF43FC9717B8CDF221D56AF46 /* Pods-ExpoFpIndoorAtlas-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExpoFpIndoorAtlas-acknowledgements.plist"; sourceTree = "<group>"; };
 		1D542A073C68BB8BF7E59FF191AC8067 /* Pods-ExpoFpIndoorAtlas-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExpoFpIndoorAtlas-Info.plist"; sourceTree = "<group>"; };
 		1E7F0462152B04A825DBF650C33B75BD /* Pods-ExpoFpIndoorAtlas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExpoFpIndoorAtlas-dummy.m"; sourceTree = "<group>"; };
-		22020146841CBCA08A3D4374AE2FA1B6 /* IndoorAtlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorAtlas.debug.xcconfig; sourceTree = "<group>"; };
+		22B4182CEBD601B9A5704EA2A096BFCA /* IndoorAtlas.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = IndoorAtlas.xcframework; path = "indooratlas-ios-sdk/IndoorAtlas.xcframework"; sourceTree = "<group>"; };
 		2B755B1F69D46125B14CC2C05220D5EB /* Pods-ExpoFpIndoorAtlas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExpoFpIndoorAtlas-umbrella.h"; sourceTree = "<group>"; };
 		2ECA24227E346F39969E781A0D14731F /* ExpoFpCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpCommon.debug.xcconfig; sourceTree = "<group>"; };
+		2EEAAD0E3E9A284C8449FFD836DEBD39 /* IndoorAtlas-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "IndoorAtlas-xcframeworks.sh"; sourceTree = "<group>"; };
 		5A039B3C5F311AEF4D5E837A5B39D206 /* ExpoFpCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ExpoFpCommon.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76753AD486C694E06A0AE58809FA854E /* ExpoFpCommon-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ExpoFpCommon-xcframeworks.sh"; sourceTree = "<group>"; };
 		7A9F3660B1C2E71DC8187C312E73F44C /* Pods-ExpoFpIndoorAtlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpoFpIndoorAtlas.release.xcconfig"; sourceTree = "<group>"; };
-		8EEF0165813D9B4683E0D0B72ECEB25D /* IndoorAtlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorAtlas.release.xcconfig; sourceTree = "<group>"; };
 		94C1D8497CB226C247E131D136CA2DB6 /* Pods-ExpoFpIndoorAtlas-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExpoFpIndoorAtlas-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95CB6FC525B68D766DD19C855E9441B8 /* Pods-ExpoFpIndoorAtlas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExpoFpIndoorAtlas.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7AA3E15132A4D7094EDB9E0437173F1 /* Pods-ExpoFpIndoorAtlas */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExpoFpIndoorAtlas"; path = Pods_ExpoFpIndoorAtlas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C5D26599BF18C042F622733C972971 /* IndoorAtlas.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IndoorAtlas.framework; path = "indooratlas-ios-sdk/IndoorAtlas.framework"; sourceTree = "<group>"; };
-		D7ED563513D14C9056F5CB530E39C3D2 /* ExpoFpCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = ExpoFpCommon.xcframework; path = xcframework/ExpoFpCommon.xcframework; sourceTree = "<group>"; };
+		BE530CCA30CB3C36A88664FC58FAF1BA /* IndoorAtlas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IndoorAtlas.release.xcconfig; sourceTree = "<group>"; };
+		D7ED563513D14C9056F5CB530E39C3D2 /* ExpoFpCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = ExpoFpCommon.xcframework; path = xcframework/ExpoFpCommon.xcframework; sourceTree = "<group>"; };
 		DC87638B5CA3E26BD96DEE707EB8D3B4 /* Pods-ExpoFpIndoorAtlas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExpoFpIndoorAtlas.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				7EC407F4C00DE89F3D8B7987A9139DB0 /* ExpoFpCommon */,
-				3217AC02B594A80E247454AF5E14C7AD /* IndoorAtlas */,
+				4B6E72041DEC9B7A0A2AF78667ACD450 /* IndoorAtlas */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -119,13 +119,12 @@
 			path = "Target Support Files/Pods-ExpoFpIndoorAtlas";
 			sourceTree = "<group>";
 		};
-		3217AC02B594A80E247454AF5E14C7AD /* IndoorAtlas */ = {
+		3020812794A61A52B8E88F97B90FDDC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				90D7923042EF3784D1FF2EF78CD9B098 /* Frameworks */,
-				CD3C62CF7E8638B55ABCC29C845F3649 /* Support Files */,
+				22B4182CEBD601B9A5704EA2A096BFCA /* IndoorAtlas.xcframework */,
 			);
-			path = IndoorAtlas;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3820311EB9CBDE4EABC77BC8564EC279 /* Targets Support Files */ = {
@@ -134,6 +133,27 @@
 				0C8FDFCBF92FE5ECEAB592E1FF5AC0EA /* Pods-ExpoFpIndoorAtlas */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EAA895A3CC5B642D6EDBDD8ADC00268 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EEAAD0E3E9A284C8449FFD836DEBD39 /* IndoorAtlas-xcframeworks.sh */,
+				0E416226CE7E518AD65D520317C76CB6 /* IndoorAtlas.debug.xcconfig */,
+				BE530CCA30CB3C36A88664FC58FAF1BA /* IndoorAtlas.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IndoorAtlas";
+			sourceTree = "<group>";
+		};
+		4B6E72041DEC9B7A0A2AF78667ACD450 /* IndoorAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				3020812794A61A52B8E88F97B90FDDC3 /* Frameworks */,
+				3EAA895A3CC5B642D6EDBDD8ADC00268 /* Support Files */,
+			);
+			name = IndoorAtlas;
+			path = IndoorAtlas;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -150,6 +170,7 @@
 				07DF155C4A561510A0C0D8696A83F78B /* Frameworks */,
 				854A92C88DCFC0614A6FA50E735513E1 /* Support Files */,
 			);
+			name = ExpoFpCommon;
 			path = ExpoFpCommon;
 			sourceTree = "<group>";
 		};
@@ -162,24 +183,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ExpoFpCommon";
-			sourceTree = "<group>";
-		};
-		90D7923042EF3784D1FF2EF78CD9B098 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D2C5D26599BF18C042F622733C972971 /* IndoorAtlas.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CD3C62CF7E8638B55ABCC29C845F3649 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				22020146841CBCA08A3D4374AE2FA1B6 /* IndoorAtlas.debug.xcconfig */,
-				8EEF0165813D9B4683E0D0B72ECEB25D /* IndoorAtlas.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/IndoorAtlas";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -298,6 +301,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/ExpoFpCommon/ExpoFpCommon-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6AEA8BF25C16189524CC9C761EE73A /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/IndoorAtlas/IndoorAtlas-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/IndoorAtlas/IndoorAtlas-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/IndoorAtlas/IndoorAtlas-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -491,6 +511,24 @@
 			};
 			name = Debug;
 		};
+		68C559C8677B54FE757AC022618DB77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E416226CE7E518AD65D520317C76CB6 /* IndoorAtlas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONESIMULATOR_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -553,43 +591,6 @@
 			};
 			name = Release;
 		};
-		DCDD6EDD21FF98B7481358D049496DF8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EEF0165813D9B4683E0D0B72ECEB25D /* IndoorAtlas.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				IPHONESIMULATOR_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E6AE857AE8AD894FBC2FCDC41F13812A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22020146841CBCA08A3D4374AE2FA1B6 /* IndoorAtlas.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				IPHONESIMULATOR_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		EE0C6D3DA5A9D13595D2518FC68A19B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2ECA24227E346F39969E781A0D14731F /* ExpoFpCommon.debug.xcconfig */;
@@ -608,18 +609,28 @@
 			};
 			name = Debug;
 		};
+		F308AC8C22FBC52BC7703B3CFECE84D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE530CCA30CB3C36A88664FC58FAF1BA /* IndoorAtlas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONESIMULATOR_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17617C75CAAAEFFACDA6EEF24BB9C4C5 /* Build configuration list for PBXAggregateTarget "IndoorAtlas" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6AE857AE8AD894FBC2FCDC41F13812A /* Debug */,
-				DCDD6EDD21FF98B7481358D049496DF8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -634,6 +645,15 @@
 			buildConfigurations = (
 				66C4693EB253CD5A0297A9D233625404 /* Debug */,
 				110636740ED8753C25133D131B7EE1B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5F05A10CCF8C873BAE6C8A92BB494D /* Build configuration list for PBXAggregateTarget "IndoorAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C559C8677B54FE757AC022618DB77F /* Debug */,
+				F308AC8C22FBC52BC7703B3CFECE84D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
