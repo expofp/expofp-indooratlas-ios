@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
   spec.name               = "ExpoFpIndoorAtlas"
-  spec.version            = "4.0.0"
+  spec.version            = "4.0.1"
   spec.platform           = :ios, '14.0'
-  spec.summary            = "Fplan Library for iOS apps"
-  spec.description        = "Library for displaying expo plans"
+  spec.summary            = "ExpoFP-IndoorAtlas location provider"
+  spec.description        = "IndoorAtlas location provider for ExpoFP SDK"
   spec.homepage           = "https://www.expofp.com"
-  spec.documentation_url  = "https://github.com/expofp/expofp-sdk-ios"
+  spec.documentation_url  = "https://expofp.github.io/expofp-mobile-sdk/ios-sdk"
   spec.license            = { :type => "MIT" }
   spec.author                = { 'ExpoFP' => 'support@expofp.com' }
   spec.source             = { :git => 'https://github.com/expofp/expofp-indooratlas-ios.git', :tag => "#{spec.version}" }
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = "xcframework/ExpoFpIndoorAtlas.xcframework"
 
   # Add here any resources to be exported.
-  spec.dependency 'ExpoFpCommon', '4.0.0'
+  spec.dependency 'ExpoFpCommon', '4.0.1'
   spec.dependency 'IndoorAtlas', '~> 3.6'
 
 end
