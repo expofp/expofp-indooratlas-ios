@@ -3,7 +3,6 @@ import ExpoFpCommon
 import IndoorAtlas
 
 public class IndoorAtlasProvider : NSObject, IALocationManagerDelegate, LocationProvider {
-    
     private let settings: Settings
     private let locationManager: IALocationManager
     
@@ -18,7 +17,7 @@ public class IndoorAtlasProvider : NSObject, IALocationManagerDelegate, Location
         self.locationManager = IALocationManager.sharedInstance()
     }
     
-    public func start() {
+    public func start(_ inBackground: Bool) {
         self.locationManager.delegate = self
         self.locationManager.setApiKey(settings.apiKey, andSecret: settings.apiSecretKey)
         self.locationManager.startUpdatingLocation()
@@ -30,17 +29,21 @@ public class IndoorAtlasProvider : NSObject, IALocationManagerDelegate, Location
     }
     
     public func indoorLocationManager(_ manager: IALocationManager, didUpdateLocations locations: [Any]) {
-        let l = locations.last as! IALocation
-        var dloc: ExpoFpCommon.Location? = nil;
-        
-        if let newLocation = l.location?.coordinate {
-            //print("Position changed to coordinate: \(newLocation.latitude) \(newLocation.longitude)")
-            dloc = ExpoFpCommon.Location(latitude: newLocation.latitude, longitude: newLocation.longitude, angle: nil)
+        if (locations.isEmpty) {
+            return
         }
         
-        if let loc = dloc {
+        if let newLocation = locations.first as? IALocation {
+            let floor = newLocation.location?.floor?.level.description ?? nil
+            let course = newLocation.location?.course ?? nil
+            
+            let lat = newLocation.location?.coordinate.latitude
+            let lon = newLocation.location?.coordinate.longitude
+
+            let dloc = ExpoFpCommon.Location(z: floor, angle: course, latitude: lat, longitude: lon)
+            
             if let dlg = delegate {
-                dlg.didUpdateLocation(location: loc)
+                dlg.didUpdateLocation(location: dloc)
             }
         }
     }

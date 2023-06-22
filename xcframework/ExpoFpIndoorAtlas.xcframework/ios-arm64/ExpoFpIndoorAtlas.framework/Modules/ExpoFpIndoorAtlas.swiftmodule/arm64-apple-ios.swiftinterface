@@ -20,7 +20,7 @@ public class Settings {
     set(newDelegate)
   }
   public init(_ settings: ExpoFpIndoorAtlas.Settings)
-  public func start()
+  public func start(_ inBackground: Swift.Bool)
   public func stop()
   @objc public func indoorLocationManager(_ manager: IndoorAtlas.IALocationManager, didUpdateLocations locations: [Any])
   @objc deinit

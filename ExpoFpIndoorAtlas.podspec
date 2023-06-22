@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "ExpoFpIndoorAtlas"
-  spec.version            = "4.0.3"
+  spec.version            = "4.0.7"
   spec.platform           = :ios, '14.0'
   spec.summary            = "ExpoFP-IndoorAtlas location provider"
   spec.description        = "IndoorAtlas location provider for ExpoFP SDK"
@@ -9,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.license            = { :type => "MIT" }
   spec.author                = { 'ExpoFP' => 'support@expofp.com' }
   spec.source             = { :git => 'https://github.com/expofp/expofp-indooratlas-ios.git', :tag => "#{spec.version}" }
-  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  #spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.swift_version      = "5"
 
   # Supported deployment targets
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = "xcframework/ExpoFpIndoorAtlas.xcframework"
 
   # Add here any resources to be exported.
-  spec.dependency 'ExpoFpCommon', '4.0.3'
+  spec.dependency 'ExpoFpCommon', '4.0.7'
   spec.dependency 'IndoorAtlas', '~> 3.6'
 
 end
