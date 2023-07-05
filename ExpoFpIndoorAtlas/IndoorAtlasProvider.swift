@@ -33,12 +33,12 @@ public class IndoorAtlasProvider : NSObject, IALocationManagerDelegate, Location
             return
         }
         
-        if let newLocation = locations.first as? IALocation {
-            let floor = newLocation.location?.floor?.level.description ?? nil
-            let course = newLocation.location?.course ?? nil
+        if let location = locations.first as? IALocation {
+            let floor = location.floor?.level.description ?? nil
+            let course = location.location?.course ?? nil
             
-            let lat = newLocation.location?.coordinate.latitude
-            let lon = newLocation.location?.coordinate.longitude
+            let lat = location.location?.coordinate.latitude
+            let lon = location.location?.coordinate.longitude
 
             let dloc = ExpoFpCommon.Location(z: floor, angle: course, latitude: lat, longitude: lon)
             
