@@ -1,9 +1,9 @@
 PODS:
-  - ExpoFpCommon (4.1.2)
+  - ExpoFpCommon (4.1.3)
   - IndoorAtlas (3.6.3)
 
 DEPENDENCIES:
-  - ExpoFpCommon (= 4.1.2)
+  - ExpoFpCommon (= 4.1.3)
   - IndoorAtlas (~> 3.6)
 
 SPEC REPOS:
@@ -12,9 +12,9 @@ SPEC REPOS:
     - IndoorAtlas
 
 SPEC CHECKSUMS:
-  ExpoFpCommon: 438e7cc8f2cb5cc9f47581c38854af03597d403e
+  ExpoFpCommon: cc6bfb62a3a6ad26b2bbe602cfb7ac58f053e9dc
   IndoorAtlas: d84e24bc8079e5525d606222abfb5c325c2b11e5
 
-PODFILE CHECKSUM: 1233ab255ef15407e9c0860ef3afc1c246e6e376
+PODFILE CHECKSUM: 5507133fea724229b2f82977ee5746584d7ffc2e
 
 COCOAPODS: 1.11.3
