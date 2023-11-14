@@ -94,11 +94,3 @@ iOSInjectionProject/
 Pods/
 
 Podfile.lock
-
-*.xcworkspace
-
-xcframework/
-
-*.xcframework
-
-*.xcuserstate

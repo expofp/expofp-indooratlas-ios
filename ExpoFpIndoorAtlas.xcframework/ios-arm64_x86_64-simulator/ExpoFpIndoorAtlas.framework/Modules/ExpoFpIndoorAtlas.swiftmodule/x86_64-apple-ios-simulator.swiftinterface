@@ -1,0 +1,28 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ExpoFpIndoorAtlas
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import ExpoFpCommon
+import Foundation
+import IndoorAtlas
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class Settings {
+  final public let apiKey: Swift.String
+  final public let apiSecretKey: Swift.String
+  public init(_ apiKey: Swift.String, _ apiSecretKey: Swift.String)
+  @objc deinit
+}
+@objc public class IndoorAtlasProvider : ObjectiveC.NSObject, IndoorAtlas.IALocationManagerDelegate, ExpoFpCommon.LocationProvider {
+  public var delegate: (any ExpoFpCommon.LocationProviderDelegate)? {
+    get
+    set(newDelegate)
+  }
+  public init(_ settings: ExpoFpIndoorAtlas.Settings)
+  public func start(_ inBackground: Swift.Bool)
+  public func stop()
+  @objc public func indoorLocationManager(_ manager: IndoorAtlas.IALocationManager, didUpdateLocations locations: [Any])
+  @objc deinit
+}
