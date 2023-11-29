@@ -502,7 +502,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-indooratlas-ios-src\/ExpoFpIndoorAtlas\/IndoorAtlasProvider.swift",
+      "filePath": "\/Users\/vladimir\/Xcode projects\/expofp-indooratlas-ios-src\/cocoapods\/ExpoFpIndoorAtlas\/IndoorAtlasProvider.swift",
       "kind": "StringLiteral",
       "offset": 71,
       "length": 19,
