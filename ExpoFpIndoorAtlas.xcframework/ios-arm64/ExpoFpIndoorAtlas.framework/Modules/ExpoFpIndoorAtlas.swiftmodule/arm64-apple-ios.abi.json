@@ -188,12 +188,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "ExpoFpCommon.LocationProviderDelegate?",
+                "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LocationProviderDelegate",
-                    "printedName": "ExpoFpCommon.LocationProviderDelegate",
+                    "printedName": "any ExpoFpCommon.LocationProviderDelegate",
                     "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                   }
                 ],
@@ -216,12 +216,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ExpoFpCommon.LocationProviderDelegate?",
+                    "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LocationProviderDelegate",
-                        "printedName": "ExpoFpCommon.LocationProviderDelegate",
+                        "printedName": "any ExpoFpCommon.LocationProviderDelegate",
                         "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                       }
                     ],
@@ -247,12 +247,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "ExpoFpCommon.LocationProviderDelegate?",
+                    "printedName": "(any ExpoFpCommon.LocationProviderDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LocationProviderDelegate",
-                        "printedName": "ExpoFpCommon.LocationProviderDelegate",
+                        "printedName": "any ExpoFpCommon.LocationProviderDelegate",
                         "usr": "s:12ExpoFpCommon24LocationProviderDelegateP"
                       }
                     ],
