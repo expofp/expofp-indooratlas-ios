@@ -315,23 +315,17 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(_:)",
+            "printedName": "start()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:17ExpoFpIndoorAtlas0cD8ProviderC5startyySbF",
-            "mangledName": "$s17ExpoFpIndoorAtlas0cD8ProviderC5startyySbF",
+            "usr": "s:17ExpoFpIndoorAtlas0cD8ProviderC5startyyF",
+            "mangledName": "$s17ExpoFpIndoorAtlas0cD8ProviderC5startyyF",
             "moduleName": "ExpoFpIndoorAtlas",
             "declAttributes": [
               "AccessControl"
