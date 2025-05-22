@@ -1,4 +1,0 @@
-framework module ExpoFpIndoorAtlas {
-  header "ExpoFpIndoorAtlas-Swift.h"
-  requires objc
-}
