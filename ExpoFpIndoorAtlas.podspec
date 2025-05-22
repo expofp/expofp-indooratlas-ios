@@ -16,11 +16,8 @@ Pod::Spec.new do |spec|
   # Supported deployment targets
   spec.ios.deployment_target  = "14.0"
 
-  # Published binaries
-  spec.ios.vendored_frameworks = "ExpoFpIndoorAtlas.xcframework"
-
   # Add here any resources to be exported.
-  spec.dependency 'ExpoFpCommon', '4.9.0'
-  spec.dependency 'IndoorAtlas', '~> 3.7'
+  spec.dependency 'ExpoFpFplan', '5.0.0'
+  spec.dependency 'IndoorAtlas', '3.6.9'
 
 end
