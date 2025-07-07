@@ -6,7 +6,7 @@
 //  Copyright © 2025 ExpoFP. All rights reserved.
 //
 
-import ExpoFpFplan
+import ExpoFP
 import Foundation
 import IndoorAtlas
 

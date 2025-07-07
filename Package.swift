@@ -13,14 +13,14 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/expofp/expofp-fplan-ios", exact: "5.0.0"),
+        .package(url: "https://github.com/expofp/expofp-sdk-ios", from: "5.1.0"),
         .package(url: "https://github.com/IndoorAtlas/ios-spm", exact: "3.6.9"),
     ],
     targets: [
         .target(
             name: "ExpoFpIndoorAtlas",
             dependencies: [
-                .product(name: "ExpoFpFplan", package: "expofp-fplan-ios"),
+                .product(name: "ExpoFP", package: "expofp-sdk-ios"),
                 .product(name: "IndoorAtlas", package: "ios-spm"),
             ],
             path: "ExpoFpIndoorAtlas"
