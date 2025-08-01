@@ -45,7 +45,7 @@ public final class ExpoFpIndoorAtlasLocationProvider: NSObject, IALocationManage
     public func indoorLocationManager(_ manager: IALocationManager, didUpdateLocations locations: [Any]) {
         guard isLocationUpdating, let location = locations.first as? IALocation else { return }
 
-        let floor = (location.floor?.level).map(ExpoFpFloor.index)
+        let floor = (location.floor?.level).map(ExpoFpFloorType.index)
         let angle = location.location?.course
         let lat = location.location?.coordinate.latitude
         let lng = location.location?.coordinate.longitude
