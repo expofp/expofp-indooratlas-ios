@@ -12,7 +12,7 @@ PACKAGE_NAME="ExpoFpIndoorAtlas"
 current_branch=$(git rev-parse --abbrev-ref HEAD)
 if [ "$current_branch" != "main" ]; then
     echo "❌ Current branch is not main (current branch is: $current_branch)"
-    return
+    exit 1
 fi
 
 echo "🛃 Updating version."
@@ -21,7 +21,6 @@ sed -i '' "s/\(\.package([^)]*from: *\"\)[^\"]*/\1$VERSION/" README.md
 sed -i '' "s/\(pod '.*', *['\"]~> *\)[^'\"]*/\1$VERSION/" README.md
 
 echo "🛜 Publishing $PACKAGE_NAME."
-git checkout develop
 git add -A && git commit -m "Release v$VERSION"
 git tag "v$VERSION"
 git push --tags

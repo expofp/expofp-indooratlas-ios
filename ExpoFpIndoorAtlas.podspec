@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "ExpoFpIndoorAtlas"
-  spec.version            = "5.0.1"
+  spec.version            = "5.1.0"
   spec.platform           = :ios, '14.0'
   spec.summary            = "ExpoFP-IndoorAtlas location provider"
   spec.description        = "IndoorAtlas location provider for ExpoFP SDK"
