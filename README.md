@@ -6,7 +6,7 @@
 
 **ExpoFpIndoorAtlas** is a wrapper around [IndoorAtlas Location Provider](https://github.com/IndoorAtlas), made for **ExpoFP** floor plans.<br>
 This package includes the latest version of [ExpoFP SDK](https://github.com/expofp/expofp-sdk-ios).<br>
-Also you can take [IndoorAtlas SDK](https://github.com/IndoorAtlas/ios-spm) and create your own wrapper to use with [ExpoFP SDK](https://github.com/expofp/expofp-sdk-ios) after confirming it to `IExpoFpLocationProvider` protocol following the [documentation](https://expofp.github.io/expofp-sdk-ios/documentation/expofp/setup-navigation) or the example in this package.
+Also you can take [IndoorAtlas SDK](https://github.com/IndoorAtlas/ios-spm) and create your own wrapper to use with [ExpoFP SDK](https://github.com/expofp/expofp-sdk-ios) following the [IndoorAtlas documentation](https://docs.indooratlas.com/ios/latest/) and this package as an example.
 
 ## Setup
 
@@ -15,26 +15,41 @@ Also you can take [IndoorAtlas SDK](https://github.com/IndoorAtlas/ios-spm) and 
 
 ### Add permissions to Info.plist:
 
+#### If SDK is started with `isBackgroundUpdatesAllowed = false`:
+```xml
+<key>NSMotionUsageDescription</key>
+<string>YOUR DESCRIPTIVE TEXT HERE</string>
+
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>YOUR DESCRIPTIVE TEXT HERE</string>
+```
+
+#### If SDK is started with `isBackgroundUpdatesAllowed = true`:
 ```xml
 <key>UIBackgroundModes</key>
 <array>
-<string>location</string>
+    <string>location</string>
 </array>
 
-<key>NSLocationAlwaysUsageDescription</key>
-<string>Platform location requested for better indoor positioning experience.</string>
-
-<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>Platform location requested for better indoor positioning experience.</string>
+<key>NSMotionUsageDescription</key>
+<string>YOUR DESCRIPTIVE TEXT HERE</string>
 
 <key>NSLocationWhenInUseUsageDescription</key>
-<string>Platform location requested for better indoor positioning experience.</string>
+<string>YOUR DESCRIPTIVE TEXT HERE</string>
+
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>YOUR DESCRIPTIVE TEXT HERE</string>
+```
+
+#### Optionally enable bluetooth for better positioning:
+```xml
+<key>UIBackgroundModes</key>
+<array>
+	<string>bluetooth-central</string>
+</array>
 
 <key>NSBluetoothAlwaysUsageDescription</key>
-<string>Bluetooth requested for better positioning experience.</string>
-
-<key>NSBluetoothPeripheralUsageDescription</key>
-<string>Bluetooth requested for better positioning experience.</string>
+<string>YOUR DESCRIPTIVE TEXT HERE</string>
 ```
 
 ### Swift Package Manager
@@ -70,7 +85,8 @@ end
 ```swift
 let locationProvider = ExpoFpIndoorAtlasLocationProvider(
     apiKey: "YourAPIKey",
-    apiSecretKey: "YourSecretKey"
+    apiSecretKey: "YourSecretKey",
+    isBackgroundUpdatesAllowed: true
 )
 
 let presenter = ExpoFpPlan.createPlanPresenter(

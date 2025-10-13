@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = "14.0"
 
   # Add here any resources to be exported.
-  spec.dependency 'ExpoFP', '~> 5.2.0'
-  spec.dependency 'IndoorAtlas', '3.6.9'
+  spec.dependency 'ExpoFP', '~> 5.3.0'
+  spec.dependency 'IndoorAtlas', '3.7.1'
 
 end
