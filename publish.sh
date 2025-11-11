@@ -6,7 +6,7 @@
 # Set bash script to exit immediately if any commands fail
 set -e
 
-VERSION="5.1.0"
+VERSION="5.1.1"
 PACKAGE_NAME="ExpoFpIndoorAtlas"
 
 current_branch=$(git rev-parse --abbrev-ref HEAD)
@@ -22,7 +22,7 @@ sed -i '' "s/\(pod '.*', *['\"]~> *\)[^'\"]*/\1$VERSION/" README.md
 
 echo "🛜 Publishing $PACKAGE_NAME."
 git add -A && git commit -m "Release v$VERSION"
-git tag "v$VERSION"
+git tag "$VERSION"
 git push --tags
 git push
 pod repo update

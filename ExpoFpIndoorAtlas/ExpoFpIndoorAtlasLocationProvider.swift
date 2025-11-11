@@ -18,8 +18,8 @@ public final class ExpoFpIndoorAtlasLocationProvider: NSObject, IALocationManage
 
     public private(set) var traceId: String?
     public private(set) var settings: ExpoFpIndoorAtlasLocationProviderSettings
+    public private(set) var isLocationUpdating = false
     private let locationManager = IALocationManager.sharedInstance()
-    private var isLocationUpdating = false
 
     private var position = ExpoFpPosition() {
         didSet {
