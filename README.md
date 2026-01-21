@@ -56,7 +56,7 @@ Also you can take [IndoorAtlas SDK](https://github.com/IndoorAtlas/ios-spm) and 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/expofp/expofp-indooratlas-ios", from: "5.1.1"),
+    .package(url: "https://github.com/expofp/expofp-indooratlas-ios", from: "5.1.2"),
 ]
 ```
 
@@ -76,7 +76,7 @@ and add it to your target’s dependencies
 
 ```
 target 'MyApp' do
-    pod 'ExpoFpIndoorAtlas', '~> 5.1.1'
+    pod 'ExpoFpIndoorAtlas', '~> 5.1.2'
 end
 ```
 

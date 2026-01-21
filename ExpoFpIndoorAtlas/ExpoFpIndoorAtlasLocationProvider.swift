@@ -14,16 +14,19 @@ public final class ExpoFpIndoorAtlasLocationProvider: NSObject, IALocationManage
 
     // MARK: - Properties
 
-    public weak var expoFpLocationProviderDelegate: ExpoFpLocationProviderDelegate?
+    public let id = UUID()
+    public weak var expoFpLocationProviderDelegate: (any ExpoFpLocationProviderDelegate)?
 
     public private(set) var traceId: String?
     public private(set) var settings: ExpoFpIndoorAtlasLocationProviderSettings
     public private(set) var isLocationUpdating = false
+
     private let locationManager = IALocationManager.sharedInstance()
 
     private var position = ExpoFpPosition() {
         didSet {
             guard isLocationUpdating else { return }
+            print(position)
             expoFpLocationProviderDelegate?.positionDidChange(position)
         }
     }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "ExpoFpIndoorAtlas"
-  spec.version            = "5.1.1"
+  spec.version            = "5.1.2"
   spec.platform           = :ios, '14.0'
   spec.summary            = "ExpoFP-IndoorAtlas location provider"
   spec.description        = "IndoorAtlas location provider for ExpoFP SDK"
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = "14.0"
 
   # Add here any resources to be exported.
-  spec.dependency 'ExpoFP', '~> 5.4.0'
-  spec.dependency 'IndoorAtlas', '3.7.1'
+  spec.dependency 'ExpoFP', '~> 5.4.4'
+  spec.dependency 'IndoorAtlas', '3.7.2'
 
 end
