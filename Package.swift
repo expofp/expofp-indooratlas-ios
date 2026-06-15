@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ExpoFpIndoorAtlas",
-    platforms: [.iOS(.v14)],
+    platforms: [.iOS(.v16)],
     products: [
         .library(
             name: "ExpoFpIndoorAtlas",
@@ -13,8 +13,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/expofp/expofp-sdk-ios", from: "5.4.4"),
-        .package(url: "https://github.com/IndoorAtlas/ios-spm", branch: "main"),
+        .package(url: "https://github.com/expofp/expofp-sdk-ios", from: "5.7.0"),
+        .package(url: "https://github.com/IndoorAtlas/ios-spm", exact: "3.8.1"),
     ],
     targets: [
         .target(
