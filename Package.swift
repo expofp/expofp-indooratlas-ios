@@ -1,4 +1,4 @@
-// swift-tools-version: 5.10
+// swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/expofp/expofp-sdk-ios", from: "5.7.0"),
+        .package(url: "https://github.com/expofp/expofp-sdk-ios", from: "5.12.0"),
         .package(url: "https://github.com/IndoorAtlas/ios-spm", exact: "3.8.1"),
     ],
     targets: [
@@ -25,6 +25,5 @@ let package = Package(
             ],
             path: "ExpoFpIndoorAtlas"
         ),
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )

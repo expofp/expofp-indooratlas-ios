@@ -1,7 +1,6 @@
 <img src="https://expofp.com/template/img/site-header-logo-inverse.png" width="350"/>
 
 [![Swift Package Manager compatible](https://img.shields.io/badge/SPM-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/ExpoFpIndoorAtlas.svg)](https://cocoapods.org/pods/ExpoFpIndoorAtlas)
 [![Platform](https://img.shields.io/badge/Platforms-%20iOS%20|%20iPadOS-lightgrey.svg)](https://github.com/expofp/expofp-indooratlas-ios)
 
 **ExpoFpIndoorAtlas** is a wrapper around [IndoorAtlas Location Provider](https://github.com/IndoorAtlas), made for **ExpoFP** floor plans.<br>
@@ -69,15 +68,6 @@ and add it to your target’s dependencies
         .product(name: "ExpoFpIndoorAtlas", package: "expofp-indooratlas-ios"),
     ]
 ),
-```
-
-### CocoaPods
-> Warning: CocoaPods [will be deprecated soon](https://blog.cocoapods.org/CocoaPods-Specs-Repo/)
-
-```
-target 'MyApp' do
-    pod 'ExpoFpIndoorAtlas', '~> 5.2.0'
-end
 ```
 
 ## Quick Guide
