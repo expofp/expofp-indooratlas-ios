@@ -10,7 +10,7 @@ import ExpoFP
 import Foundation
 import IndoorAtlas
 
-public final class ExpoFpIndoorAtlasLocationProvider: NSObject, IALocationManagerDelegate, IExpoFpLocationProvider {
+public final class ExpoFpIndoorAtlasLocationProvider: NSObject, @MainActor IALocationManagerDelegate, IExpoFpLocationProvider {
 
     // MARK: - Properties
 

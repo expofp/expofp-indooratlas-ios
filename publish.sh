@@ -16,17 +16,12 @@ if [ "$current_branch" != "main" ]; then
 fi
 
 echo "🛃 Updating version."
-sed -i '' "s/\(spec\.version[^)]*= *\"\)[^\"]*/\1$VERSION/" "$PACKAGE_NAME.podspec"
 sed -i '' "s/\(\.package([^)]*from: *\"\)[^\"]*/\1$VERSION/" README.md
-sed -i '' "s/\(pod '.*', *['\"]~> *\)[^'\"]*/\1$VERSION/" README.md
 
 echo "🛜 Publishing $PACKAGE_NAME."
 git add -A && git commit -m "Release v$VERSION"
 git tag "$VERSION"
 git push --tags
 git push
-pod repo update
-pod lib lint
-pod trunk push
 
 echo "✅ Publishing complete."
